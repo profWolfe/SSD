@@ -1,0 +1,76 @@
+/**/
+.container {
+  border-style: solid;
+  border-width: thick;
+  max-width: 800px;
+  margin: auto;
+  font-family: Cormorant;
+}
+
+@font-face {
+  font-family: Cormorant;
+  src: url(LiberationSerif-Regular-webfont.woff);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  text-align: left;
+  max-width: 200px;
+  flex: 1%;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+
+  background: #000000;
+  background: -moz-linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  background: -webkit-linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  background: linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#top_right {
+  text-align: left;
+  max-width: 500px;
+  flex: 1%;
+  line-height: 26px;
+}
+
+.contact_info {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+    width: 700px;
+    justify-content: center;
+}
+
+.bottom {
+  max-width: 500px;
+  min-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#list {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+
+  background: #000000;
+  background: -moz-linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  background: -webkit-linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  background: linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#background {
+  background-image: linear-gradient(to bottom, #212a37, #3e424d, #5b5d64, #78797d, #969696);
+}
