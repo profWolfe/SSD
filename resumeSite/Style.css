@@ -12,15 +12,10 @@
   src: url(LiberationSerif-Regular-webfont.woff);
 }
 
-.top {
-  display: flex;
-  justify-content: center;
-}
 
 #name {
-  text-align: left;
-  max-width: 200px;
-  flex: 1%;
+  font-variant: small-caps;
+  max-width: 150px;
   font-size: 18px;
   letter-spacing: 1.8px;
 
@@ -34,17 +29,34 @@
 
 
 #top_right {
-  text-align: left;
   max-width: 500px;
-  flex: 1%;
-  line-height: 26px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-width: thin;
+  border-right-width: thin;
+  border-bottom-width: thin;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
 .contact_info {
-  justify-content: center;
-  display: flex;
+  font-size: 0;
+}
+
+
+.contact_info > h5 {
   letter-spacing: 1.5px;
+  font-size: 10px;
+  display: inline-block;
+  width: 200px;
+  box-sizing: content-box;
+  text-align: center;
+  padding-left: 55px;
+  margin-bottom: auto;
 }
 
 
