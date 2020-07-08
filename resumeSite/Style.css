@@ -32,6 +32,7 @@
   -webkit-text-fill-color: transparent;
 }
 
+
 #top_right {
   text-align: left;
   max-width: 500px;
@@ -39,15 +40,19 @@
   line-height: 26px;
 }
 
+
 .contact_info {
-  display: flex;
   justify-content: center;
+  display: flex;
+  letter-spacing: 1.5px;
 }
+
 
 hr {
     width: 700px;
     justify-content: center;
 }
+
 
 .bottom {
   max-width: 500px;
@@ -69,8 +74,4 @@ hr {
   background: linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-#background {
-  background-image: linear-gradient(to bottom, #212a37, #3e424d, #5b5d64, #78797d, #969696);
 }
