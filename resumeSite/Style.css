@@ -1,4 +1,4 @@
-/**/
+/* contains all elements and provides a border and font style for the entire resume */
 .container {
   border-style: solid;
   border-width: thick;
@@ -7,17 +7,21 @@
   font-family: Cormorant;
 }
 
+/* font */
 @font-face {
   font-family: Cormorant;
   src: url(LiberationSerif-Regular-webfont.woff);
 }
 
-
-#name {
+/* contains name */
+.name {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
   font-variant: small-caps;
-  max-width: 150px;
   font-size: 18px;
-  letter-spacing: 1.8px;
+  max-width: 500px;
+  letter-spacing: 5px;
 
   background: #000000;
   background: -moz-linear-gradient(45deg, #000000 0%, #1B699B 46%, #A87D1E 100%);
@@ -27,52 +31,61 @@
   -webkit-text-fill-color: transparent;
 }
 
-
-#top_right {
+/* contains bio section */
+.bio {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
   max-width: 500px;
   line-height: 24px;
   letter-spacing: 1.5px;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-width: thin;
-  border-right-width: thin;
-  border-bottom-width: thin;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-
+/* contains contact information */
 .contact_info {
-  font-size: 0;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-right: 70px;
 }
 
 
-.contact_info > h5 {
-  letter-spacing: 1.5px;
-  font-size: 10px;
-  display: inline-block;
-  width: 200px;
-  box-sizing: content-box;
+.linkedin {
   text-align: center;
-  padding-left: 55px;
-  margin-bottom: auto;
+  float:left;
+  width: 33.33%;
 }
 
 
+.email {
+text-align: center;
+float: left;
+width: 33.33%;
+}
+
+
+.github {
+text-align: center;
+float: left;
+width: 33.33%;
+}
+
+
+/* line break between top and bottom sections of the resume */
 hr {
     width: 700px;
     justify-content: center;
+    margin-top: 45px;
 }
 
-
+/* contains elements technical skills, certifications, work expierence, soft skills, and education */
 .bottom {
   max-width: 500px;
   min-width: 500px;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
 }
 
+/* contains the list of bottom elements */
 #list {
   border-top-style: solid;
   border-bottom-style: solid;
