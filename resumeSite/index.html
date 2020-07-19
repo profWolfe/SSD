@@ -5,11 +5,14 @@
   <author = "James Wolfe">
 </head>
 
+<div class = "header" id = "myHeader">
+<h1> Squirrel Destruction </h1>
+</div>
 
+<div class = "mySite"> Welcome To My AWS Cloud Resume </div>
 <div class = "container">
 
-<div class = "top">
-<!top of the page with text for my name, bio, and contact information>
+<!top of the resume with text for my name, bio, and contact information>
   <div class = "name"><p> James Wolfe </p></div>
   <div class = "bio"> <p> Recent Computer Science graduate with experience in coding, cloud computing, and various other technical skills. Seeking
     a technical working environment where problem solving and critical thinking are key. </p></div>
@@ -19,12 +22,11 @@
     <div class = "linkedin"><p><a href="https://linkedin.com/in/james-wolfe-6420151aa"> LinkedIn </a></p></div>
     <div class = "email"><p> Wolfe.James.J96@gmail.com </P></div>
 </div>
-</div>
 
 
 <hr>
 
-<!bottom part of the page for my technical skills, certs, work expeience, soft skills, and education>
+<!bottom part of the resume for my technical skills, certs, work expeience, soft skills, and education>
 <div class = "bottom">
   <h4 id = "list"> Technical Skills </h4>
   <p> Cloud Computing </p>
@@ -65,5 +67,22 @@
   <p> Osbourn Park High School, Manassas VA </p>
   </div>
 </div>
+
+
+<!Java script function that brings the header while scrolling down the page>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 </html>

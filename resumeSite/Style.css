@@ -1,5 +1,32 @@
+/* Header */
+.header {
+  font-variant: small-caps;
+  font-size: 28px;
+  text-align: center;
+  color: #241d1d;
+  background: #f5f9ff;
+}
+
+/* change from normal header to sticky header that follows as your scroll */
+.sticky {
+  opacity: 90%;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* contains welcome text */
+.mySite {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+
 /* contains all elements and provides a border and font style for the entire resume */
 .container {
+  padding: 10px;
   border-style: solid;
   border-width: thick;
   max-width: 800px;
@@ -91,6 +118,7 @@ hr {
   border-bottom-style: solid;
   border-width: thin;
   font-size: 18px;
+  font-variant: small-caps;
   letter-spacing: 1.8px;
 
   background: #000000;
