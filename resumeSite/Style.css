@@ -1,10 +1,14 @@
 /* Header */
 .header {
-  font-variant: small-caps;
-  font-size: 28px;
+  font-size: 26px;
+  letter-spacing: 1.8px;
   text-align: center;
   color: #241d1d;
   background: #f5f9ff;
+}
+
+
+#myHeader {
 }
 
 /* change from normal header to sticky header that follows as your scroll */
