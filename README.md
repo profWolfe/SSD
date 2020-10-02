@@ -1,3 +1,5 @@
 # Squirrel-Destruction
-  I'm James Wolfe, a recent computer science graduate currently growing my experience and knowledge in the technical field. I'm currently
-  pursing the cloud practioner certification for AWS and creating a cloud website. 
+  Hi, I'm James Wolfe
+
+	Problem solving computer scientist with a mind for problem solving and a passion for computers. My company Secret Squirrel Destruction is a technical
+	consulting LLC. Here I have repositories of the projects current, past, and future not only for SSD but also personal portfolios or blogs. 
