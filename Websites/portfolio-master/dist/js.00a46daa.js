@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\keyboard.jpg":[["keyboard.a55ce54c.jpg","img/keyboard.jpg"],"img/keyboard.jpg"],"_css_loader":"../node_modules/parcel/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
+},{"./..\\img\\computer.jpg":[["computer.f23fb325.jpg","img/computer.jpg"],"img/computer.jpg"],"_css_loader":"../node_modules/parcel/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62983" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62784" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
