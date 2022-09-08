@@ -1,4 +1,7 @@
-# Squirrel-Destruction
+# Secret-Squirrel-Destruction
+
+Business website for SSD.
+
   Hi, I'm James Wolfe
 
 Problem solving computer scientist with a mind for problem solving and a passion for computers. My company Secret Squirrel Destruction is a technical
